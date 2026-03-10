@@ -44,7 +44,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         with:
           args: >
-            -Dsonar.projectKey=devops-traveller_login-api-ci-project
+            -Dsonar.projectKey=mpusunuri_login-api-ci-project
             -Dsonar.organization=devops-traveller
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
